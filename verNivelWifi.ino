@@ -34,7 +34,7 @@ void loop() {
       Serial.print(WiFi.SSID(i));// SSID
 
                   
-      Serial.print(" " + WiFi.RSSI(i));//Signal strength in dBm  
+      Serial.print(" " + (String) WiFi.RSSI(i));//Signal strength in dBm  
       Serial.print("dBm (");
 
       
